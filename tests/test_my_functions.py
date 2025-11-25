@@ -28,3 +28,15 @@ def test_decimal():
     #   Division pero i-fi-FLOOR (ibaba) ang sagot
     #   Laging whole number (integer)
     #   Kahit may decimal dapat, tinatanggal niya pababa
+
+
+def test_divide_by_zero():
+    with pytest.raises(ZeroDivisionError):
+        my_functions.divide(10,0)
+#   HANDLING ERROR
+
+
+def test_add_strings():
+    result = my_functions.add("Hello ", "Kath")
+    assert result == "Hello Kath"
+    

@@ -10,3 +10,7 @@ The code includes simple functions and test cases that help me explore:
 - experimenting with Pytest behavior  
 
 Some files contain **Taglish comments** because I use them as personal notes while studying.
+
+
+# How to Run:
+ > pytest tests/test_math_operations.py
